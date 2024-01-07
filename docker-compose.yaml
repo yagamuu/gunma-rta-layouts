@@ -1,0 +1,19 @@
+version: "3"
+services:
+  nodecg:
+    build: .
+    volumes:
+      - "./cfg:/opt/nodecg/cfg:ro"
+      - "assets:/opt/nodecg/assets:rw"
+      - "db:/opt/nodecg/db:rw"
+      - "./dashboard:/opt/nodecg/gunma-rta-layouts/dashboard:ro"
+      - "./graphics:/opt/nodecg/gunma-rta-layouts/graphics:ro"
+      - "./schemas:/opt/nodecg/gunma-rta-layouts/schemas:ro"
+      - "./package.json:/opt/nodecg/bundles/gunma-rta-layouts/package.json:ro"
+    ports:
+      - "9090:9090"
+
+volumes:
+  db:
+  assets:
+  node_modules:
