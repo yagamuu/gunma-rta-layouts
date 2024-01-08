@@ -1,0 +1,71 @@
+{
+  "_index-!~{007}~.js": {
+    "file": "index-eyWRRF72.css",
+    "src": "_index-!~{007}~.js"
+  },
+  "_index-MOxs2iaa.js": {
+    "css": [
+      "index-eyWRRF72.css"
+    ],
+    "file": "index-MOxs2iaa.js"
+  },
+  "_run-timer-0oFw1ADJ.js": {
+    "file": "run-timer-0oFw1ADJ.js",
+    "imports": [
+      "_index-MOxs2iaa.js"
+    ]
+  },
+  "src/browser/graphics/pages/game-10x9.tsx": {
+    "file": "game-10x9-7j3B6wmW.js",
+    "imports": [
+      "_index-MOxs2iaa.js",
+      "_run-timer-0oFw1ADJ.js"
+    ],
+    "isEntry": true,
+    "src": "src/browser/graphics/pages/game-10x9.tsx"
+  },
+  "src/browser/graphics/pages/game-16x9.tsx": {
+    "file": "game-16x9-5Es0s0qr.js",
+    "imports": [
+      "_index-MOxs2iaa.js",
+      "_run-timer-0oFw1ADJ.js"
+    ],
+    "isEntry": true,
+    "src": "src/browser/graphics/pages/game-16x9.tsx"
+  },
+  "src/browser/graphics/pages/game-4x3.tsx": {
+    "file": "game-4x3--KkISQoe.js",
+    "imports": [
+      "_index-MOxs2iaa.js",
+      "_run-timer-0oFw1ADJ.js"
+    ],
+    "isEntry": true,
+    "src": "src/browser/graphics/pages/game-4x3.tsx"
+  },
+  "src/browser/graphics/pages/game-free.tsx": {
+    "file": "game-free-Vlwx1kwT.js",
+    "imports": [
+      "_index-MOxs2iaa.js",
+      "_run-timer-0oFw1ADJ.js"
+    ],
+    "isEntry": true,
+    "src": "src/browser/graphics/pages/game-free.tsx"
+  },
+  "src/browser/graphics/pages/game-pokemon.tsx": {
+    "file": "game-pokemon-nO7LEyxs.js",
+    "imports": [
+      "_index-MOxs2iaa.js",
+      "_run-timer-0oFw1ADJ.js"
+    ],
+    "isEntry": true,
+    "src": "src/browser/graphics/pages/game-pokemon.tsx"
+  },
+  "src/browser/graphics/pages/setup.tsx": {
+    "file": "setup-MMY1sIvX.js",
+    "imports": [
+      "_index-MOxs2iaa.js"
+    ],
+    "isEntry": true,
+    "src": "src/browser/graphics/pages/setup.tsx"
+  }
+}
