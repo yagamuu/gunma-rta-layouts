@@ -7,7 +7,9 @@ services:
       - "assets:/nodecg/assets:rw"
       - "db:/nodecg/db:rw"
       - "./graphics:/nodecg/bundles/gunma-rta-layouts/graphics:ro"
-      - "./schemas:/nodecg/gunma-rta-layouts/schemas:ro"
+      - "./extension:/nodecg/bundles/gunma-rta-layouts/extension:ro"
+      - "./schemas:/nodecg/bundles/gunma-rta-layouts/schemas:ro"
+      - "./node_modules:/nodecg/bundles/gunma-rta-layouts/node_modules:ro"
       - "./package.json:/nodecg/bundles/gunma-rta-layouts/package.json:ro"
     ports:
       - "9090:9090"

@@ -3,67 +3,67 @@
     "file": "index-eyWRRF72.css",
     "src": "_index-!~{007}~.js"
   },
-  "_index-MOxs2iaa.js": {
+  "_index-bsOWAcEA.js": {
     "css": [
       "index-eyWRRF72.css"
     ],
-    "file": "index-MOxs2iaa.js"
+    "file": "index-bsOWAcEA.js"
   },
-  "_run-timer-0oFw1ADJ.js": {
-    "file": "run-timer-0oFw1ADJ.js",
+  "_run-timer-KnM7wQEW.js": {
+    "file": "run-timer-KnM7wQEW.js",
     "imports": [
-      "_index-MOxs2iaa.js"
+      "_index-bsOWAcEA.js"
     ]
   },
   "src/browser/graphics/pages/game-10x9.tsx": {
-    "file": "game-10x9-7j3B6wmW.js",
+    "file": "game-10x9-YQ1cEjdY.js",
     "imports": [
-      "_index-MOxs2iaa.js",
-      "_run-timer-0oFw1ADJ.js"
+      "_index-bsOWAcEA.js",
+      "_run-timer-KnM7wQEW.js"
     ],
     "isEntry": true,
     "src": "src/browser/graphics/pages/game-10x9.tsx"
   },
   "src/browser/graphics/pages/game-16x9.tsx": {
-    "file": "game-16x9-5Es0s0qr.js",
+    "file": "game-16x9-dwvmpq6M.js",
     "imports": [
-      "_index-MOxs2iaa.js",
-      "_run-timer-0oFw1ADJ.js"
+      "_index-bsOWAcEA.js",
+      "_run-timer-KnM7wQEW.js"
     ],
     "isEntry": true,
     "src": "src/browser/graphics/pages/game-16x9.tsx"
   },
   "src/browser/graphics/pages/game-4x3.tsx": {
-    "file": "game-4x3--KkISQoe.js",
+    "file": "game-4x3-WgM9HJN-.js",
     "imports": [
-      "_index-MOxs2iaa.js",
-      "_run-timer-0oFw1ADJ.js"
+      "_index-bsOWAcEA.js",
+      "_run-timer-KnM7wQEW.js"
     ],
     "isEntry": true,
     "src": "src/browser/graphics/pages/game-4x3.tsx"
   },
   "src/browser/graphics/pages/game-free.tsx": {
-    "file": "game-free-Vlwx1kwT.js",
+    "file": "game-free-tPQFbi2o.js",
     "imports": [
-      "_index-MOxs2iaa.js",
-      "_run-timer-0oFw1ADJ.js"
+      "_index-bsOWAcEA.js",
+      "_run-timer-KnM7wQEW.js"
     ],
     "isEntry": true,
     "src": "src/browser/graphics/pages/game-free.tsx"
   },
   "src/browser/graphics/pages/game-pokemon.tsx": {
-    "file": "game-pokemon-nO7LEyxs.js",
+    "file": "game-pokemon-GAekoviD.js",
     "imports": [
-      "_index-MOxs2iaa.js",
-      "_run-timer-0oFw1ADJ.js"
+      "_index-bsOWAcEA.js",
+      "_run-timer-KnM7wQEW.js"
     ],
     "isEntry": true,
     "src": "src/browser/graphics/pages/game-pokemon.tsx"
   },
   "src/browser/graphics/pages/setup.tsx": {
-    "file": "setup-MMY1sIvX.js",
+    "file": "setup-NWhz2oQ8.js",
     "imports": [
-      "_index-MOxs2iaa.js"
+      "_index-bsOWAcEA.js"
     ],
     "isEntry": true,
     "src": "src/browser/graphics/pages/setup.tsx"
