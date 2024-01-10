@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "twitch": {
+      "type": "object",
+      "properties": {
+        "client_id": { "type": "string" },
+        "bearer": { "type": "string" }
+      },
+      "required": ["client_id", "bearer"],
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
