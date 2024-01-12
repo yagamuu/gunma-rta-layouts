@@ -58,7 +58,7 @@ export const useCurrent = () => {
         youtube: commentator.social.youtube ?? null,
       }
     })));
-  }, [ speedcontrolRuns, currentRunIndex, userAdditions]);
+  }, [ speedcontrolRuns, currentRunIndex, userAdditions, commentatorsInAddition ]);
 
   return [currentRun, runners, commentators] as const;
 };

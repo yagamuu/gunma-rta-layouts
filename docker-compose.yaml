@@ -9,6 +9,7 @@ services:
       - "./graphics:/nodecg/bundles/gunma-rta-layouts/graphics:ro"
       - "./extension:/nodecg/bundles/gunma-rta-layouts/extension:ro"
       - "./schemas:/nodecg/bundles/gunma-rta-layouts/schemas:ro"
+      - "./shared:/nodecg/bundles/gunma-rta-layouts/shared:ro"
       - "./node_modules:/nodecg/bundles/gunma-rta-layouts/node_modules:ro"
       - "./package.json:/nodecg/bundles/gunma-rta-layouts/package.json:ro"
     ports:
