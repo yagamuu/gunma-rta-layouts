@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <GraphicsApp clipPath={[
-      {h: 809, w: 1424, x: 473, y: 255},
+      {h: 792, w: 1424, x: 481, y: 282},
       {h: 270, w: 440, x: 16, y: 512}
     ]}>
       <GameInfo />

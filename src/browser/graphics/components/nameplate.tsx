@@ -38,7 +38,7 @@ export const Nameplate = ({participant, isCommentator}: {participant: Participan
   return (
     <div style={{
       display: 'grid',
-      gridTemplateColumns: '86px 16px 320px',
+      gridTemplateColumns: '86px 16px auto',
       gridTemplateRows: '48px 48px',
       alignItems: 'center',
     }}>

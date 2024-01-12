@@ -13,7 +13,7 @@ export const GameInfo = () => {
     width: '1440px',
     display: 'grid',
     gridTemplateColumns: 'auto 32px 1fr',
-    gridTemplateRows: '96px 96px',
+    gridTemplateRows: '86px 52px 96px',
     alignItems: 'center',
   }}>
     <div style={{
@@ -24,8 +24,15 @@ export const GameInfo = () => {
       { run?.game }
     </div>
     <div style={{
+      gridColumn: '1 / 4',
+      gridRow: '2 / 3',
+      fontSize: Styles.fonts.game.secondary
+    }}>
+      { run?.category }
+    </div>
+    <div style={{
       gridColumn: '1 / 2',
-      gridRow: '2 / 3'
+      gridRow: '3 / 4'
     }}>
       { runners.map(runner => (
         <Nameplate key={runner.id} participant={runner} />
@@ -34,7 +41,7 @@ export const GameInfo = () => {
     <div style={{
       display: 'flex',
       gridColumn: '3 / 4',
-      gridRow: '2 / 3'
+      gridRow: '3 / 4'
     }}>
       { commentators.map(commentator => (
         <Nameplate key={commentator.id} participant={commentator} isCommentator />
