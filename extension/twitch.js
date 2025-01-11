@@ -39,7 +39,7 @@ exports.default = (nodecg) => {
             }
             try {
                 const game = yield twitchApi.searchGames((_a = currentRun === null || currentRun === void 0 ? void 0 : currentRun.game) !== null && _a !== void 0 ? _a : 'Games + Demos');
-                const title = `${currentRun === null || currentRun === void 0 ? void 0 : currentRun.game} [RTAinGunma24-ISOBE] #RTAinGunma #LANらん群馬`;
+                const title = `${currentRun === null || currentRun === void 0 ? void 0 : currentRun.game} [RTA in Gunma 2nd-25] #RTAinGunma #LANらん群馬`;
                 twitchApi.modifyChannelInformation({
                     broadcasterId: user.id,
                     title,

@@ -27,7 +27,17 @@
         "height": 1080
       },
       {
+        "file": "game-16x9-2.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
         "file": "game-4x3.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "game-4x3-2.html",
         "width": 1920,
         "height": 1080
       },

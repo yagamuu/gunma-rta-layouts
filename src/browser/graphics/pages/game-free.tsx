@@ -1,7 +1,6 @@
 import React from 'react';
 import { render } from '../../render.js';
 import { GraphicsApp } from '../graphics-app.js';
-import '../adobe-font.js';
 import { GameInfo } from '../components/game-info.js';
 import { RunTimer } from '../components/run-timer.js';
 

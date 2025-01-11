@@ -1,0 +1,1 @@
+import{r,j as s,G as o}from"./index-MVJlaPZn.js";import{G as t}from"./game-info-8E1E9GkV.js";import{R as p}from"./run-timer-DseZxa2E.js";const i=()=>s.jsxs(o,{clipPath:[{h:270,w:440,x:16,y:512}],children:[s.jsx(t,{}),s.jsx("div",{style:{position:"absolute",left:"32px",bottom:"32px"},children:s.jsx(p,{})})]});r(s.jsx(i,{}));

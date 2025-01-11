@@ -1,51 +1,56 @@
 import React from 'react';
 import { useCurrent } from '../../hooks.js';
-import { Styles } from '../styles.js';
 import { Nameplate } from '../components/nameplate.js';
+import { RunTimer } from '../components/run-timer.js';
 
 export const GameInfo = () => {
   const [run, runners, commentators] = useCurrent();
 
-  return <div style={{
-    position: 'absolute',
-    top: '32px',
-    left: '480px',
-    width: '1440px',
-    display: 'grid',
-    gridTemplateColumns: 'auto 32px 1fr',
-    gridTemplateRows: '86px 52px 96px',
-    alignItems: 'center',
-  }}>
+  return <div>
     <div style={{
-      gridColumn: '1 / 4',
-      gridRow: '1 / 2',
-      fontSize: Styles.fonts.game.primary
+      position: 'absolute',
+      top: '5px',
+      left: '480px',
+      height: '90px',
+      width: '1440px',
+      fontSize: '44px',
     }}>
       { run?.game }
     </div>
     <div style={{
-      gridColumn: '1 / 4',
-      gridRow: '2 / 3',
-      fontSize: Styles.fonts.game.secondary
+      position: 'absolute',
+      top: '100px',
+      left: '520px',
+      height: '60px',
+      width: '880px',
+      fontSize: '36px',
     }}>
       { run?.category }
     </div>
     <div style={{
-      gridColumn: '1 / 2',
-      gridRow: '3 / 4'
+      position: 'absolute',
+      top: '676px',
+      left: '10px',
+      height: '192px',
+      width: '448px',
+      fontSize: '36px',
     }}>
       { runners.map(runner => (
         <Nameplate key={runner.id} participant={runner} />
       ))}
     </div>
     <div style={{
-      display: 'flex',
-      gridColumn: '3 / 4',
-      gridRow: '3 / 4'
+      position: 'absolute',
+      top: '872px',
+      left: '10px',
+      height: '192px',
+      width: '448px',
+      fontSize: '36px',
     }}>
       { commentators.map(commentator => (
         <Nameplate key={commentator.id} participant={commentator} isCommentator />
       ))}
-    </div>
+    </div>;
+    <RunTimer />
   </div>;
 };

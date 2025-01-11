@@ -19,7 +19,7 @@ const FadeContainer = styled.div<{state: TransitionStatus}>`
     ['entered', 'existing'].includes(props.state) ? '1' : '0'};
 `;
 
-export const Nameplate = ({participant, isCommentator}: {participant: Participant; isCommentator?: boolean}) => {
+export const NameplateOneline = ({participant, isCommentator}: {participant: Participant; isCommentator?: boolean}) => {
   const focus = useContext(FocusSocialContext);
 
   const displayPlatform = participant.social.nico 
@@ -38,26 +38,26 @@ export const Nameplate = ({participant, isCommentator}: {participant: Participan
   return (
     <div style={{
       display: 'grid',
-      gridTemplateColumns: '86px 16px 346px',
-      gridTemplateRows: '48px 48px',
+      gridTemplateColumns: '86px 16px 389px 389px',
+      gridTemplateRows: '60px',
       alignItems: 'center',
     }}>
       <div style={{
         gridColumn: '1 / 2',
-        gridRow: '1 / 3',
+        gridRow: '1 / 1',
         fontSize: Styles.fonts.game.secondary,
         justifySelf: 'center',
       }}>
         <FontAwesomeIcon icon={icon} />
       </div>
       <div style={{
-        gridColumn: '2 / 4',
-        gridRow: '1 / 2',
+        gridColumn: '3 / 4',
+        gridRow: '1 / 1',
         fontSize: Styles.fonts.game.secondary,
       }}>{ participant.name }</div>
       <div style={{
-        gridColumn: '3 / 3',
-        gridRow: '2 / 3',
+        gridColumn: '4 / 5',
+        gridRow: '1 / 1',
         fontSize: Styles.fonts.game.secondary,
       }}>
         <SwitchTransition>

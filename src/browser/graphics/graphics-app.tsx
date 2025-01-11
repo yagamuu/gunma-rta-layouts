@@ -2,6 +2,7 @@ import './common.css';
 
 import React, { ReactNode } from 'react';
 import { ClippedBackground, RectPath } from './components/clipped-background';
+import { Clock } from './components/clock';
 import { SpeedcontrolProvider } from '../providers/speedcontrol';
 import { ScAdditionProvider } from '../providers/sc-additions';
 import { EventLogo } from './components/event-logo';
@@ -22,6 +23,7 @@ export const GraphicsApp = ({ clipPath, hiddenOnNoInput, children, setup }: Prop
         <FocusSocialProvider>
           <ClippedBackground clipPath={clipPath} hiddenOnNoInput={hiddenOnNoInput} setup={setup} />
           <EventLogo setup={setup} />
+          <Clock/>
           { children }
         </FocusSocialProvider>
       </ScAdditionProvider>

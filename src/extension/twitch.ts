@@ -34,7 +34,7 @@ export default (nodecg: NodeCG) => {
         }
         try {
           const game = await twitchApi.searchGames(currentRun?.game ?? 'Games + Demos');
-          const title = `${currentRun?.game} [RTAinGunma24-ISOBE] #RTAinGunma #LANらん群馬`;
+          const title = `${currentRun?.game} [RTA in Gunma 2nd-25] #RTAinGunma #LANらん群馬`;
           twitchApi.modifyChannelInformation({
             broadcasterId: user.id,
             title,

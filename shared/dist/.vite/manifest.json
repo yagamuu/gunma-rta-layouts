@@ -1,69 +1,108 @@
 {
-  "_index-!~{007}~.js": {
-    "file": "index-eyWRRF72.css",
-    "src": "_index-!~{007}~.js"
+  "_commentator-oneline--tKZcPGo.js": {
+    "file": "commentator-oneline--tKZcPGo.js",
+    "imports": [
+      "_index-MVJlaPZn.js",
+      "_run-timer-DseZxa2E.js"
+    ]
   },
-  "_index-rJnE7suB.js": {
+  "_game-info-8E1E9GkV.js": {
+    "file": "game-info-8E1E9GkV.js",
+    "imports": [
+      "_index-MVJlaPZn.js",
+      "_run-timer-DseZxa2E.js"
+    ]
+  },
+  "_index-!~{009}~.js": {
+    "file": "index-eyWRRF72.css",
+    "src": "_index-!~{009}~.js"
+  },
+  "_index-MVJlaPZn.js": {
     "css": [
       "index-eyWRRF72.css"
     ],
-    "file": "index-rJnE7suB.js"
+    "file": "index-MVJlaPZn.js"
   },
-  "_run-timer-qcBFfuiP.js": {
-    "file": "run-timer-qcBFfuiP.js",
+  "_run-timer-DseZxa2E.js": {
+    "file": "run-timer-DseZxa2E.js",
     "imports": [
-      "_index-rJnE7suB.js"
+      "_index-MVJlaPZn.js"
     ]
   },
   "src/browser/graphics/pages/game-10x9.tsx": {
-    "file": "game-10x9--PT1oim5.js",
+    "file": "game-10x9-WBTyjWEk.js",
     "imports": [
-      "_index-rJnE7suB.js",
-      "_run-timer-qcBFfuiP.js"
+      "_index-MVJlaPZn.js",
+      "_game-info-8E1E9GkV.js",
+      "_run-timer-DseZxa2E.js"
     ],
     "isEntry": true,
     "src": "src/browser/graphics/pages/game-10x9.tsx"
   },
-  "src/browser/graphics/pages/game-16x9.tsx": {
-    "file": "game-16x9-cWxCJbc_.js",
+  "src/browser/graphics/pages/game-16x9-2.tsx": {
+    "file": "game-16x9-2-hInQoUq5.js",
     "imports": [
-      "_index-rJnE7suB.js",
-      "_run-timer-qcBFfuiP.js"
+      "_index-MVJlaPZn.js",
+      "_commentator-oneline--tKZcPGo.js",
+      "_run-timer-DseZxa2E.js"
+    ],
+    "isEntry": true,
+    "src": "src/browser/graphics/pages/game-16x9-2.tsx"
+  },
+  "src/browser/graphics/pages/game-16x9.tsx": {
+    "file": "game-16x9-pdmkge-N.js",
+    "imports": [
+      "_index-MVJlaPZn.js",
+      "_game-info-8E1E9GkV.js",
+      "_run-timer-DseZxa2E.js"
     ],
     "isEntry": true,
     "src": "src/browser/graphics/pages/game-16x9.tsx"
   },
-  "src/browser/graphics/pages/game-4x3.tsx": {
-    "file": "game-4x3-m72ovYCR.js",
+  "src/browser/graphics/pages/game-4x3-2.tsx": {
+    "file": "game-4x3-2--py56MB3.js",
     "imports": [
-      "_index-rJnE7suB.js",
-      "_run-timer-qcBFfuiP.js"
+      "_index-MVJlaPZn.js",
+      "_commentator-oneline--tKZcPGo.js",
+      "_run-timer-DseZxa2E.js"
+    ],
+    "isEntry": true,
+    "src": "src/browser/graphics/pages/game-4x3-2.tsx"
+  },
+  "src/browser/graphics/pages/game-4x3.tsx": {
+    "file": "game-4x3-659PpVaS.js",
+    "imports": [
+      "_index-MVJlaPZn.js",
+      "_game-info-8E1E9GkV.js",
+      "_run-timer-DseZxa2E.js"
     ],
     "isEntry": true,
     "src": "src/browser/graphics/pages/game-4x3.tsx"
   },
   "src/browser/graphics/pages/game-free.tsx": {
-    "file": "game-free-dTigEXiS.js",
+    "file": "game-free-9Mv3cTMv.js",
     "imports": [
-      "_index-rJnE7suB.js",
-      "_run-timer-qcBFfuiP.js"
+      "_index-MVJlaPZn.js",
+      "_game-info-8E1E9GkV.js",
+      "_run-timer-DseZxa2E.js"
     ],
     "isEntry": true,
     "src": "src/browser/graphics/pages/game-free.tsx"
   },
   "src/browser/graphics/pages/game-pokemon.tsx": {
-    "file": "game-pokemon-_yAH703G.js",
+    "file": "game-pokemon-raXlKnAN.js",
     "imports": [
-      "_index-rJnE7suB.js",
-      "_run-timer-qcBFfuiP.js"
+      "_index-MVJlaPZn.js",
+      "_game-info-8E1E9GkV.js",
+      "_run-timer-DseZxa2E.js"
     ],
     "isEntry": true,
     "src": "src/browser/graphics/pages/game-pokemon.tsx"
   },
   "src/browser/graphics/pages/setup.tsx": {
-    "file": "setup-Dc9P1QX8.js",
+    "file": "setup-luTCHlcJ.js",
     "imports": [
-      "_index-rJnE7suB.js"
+      "_index-MVJlaPZn.js"
     ],
     "isEntry": true,
     "src": "src/browser/graphics/pages/setup.tsx"

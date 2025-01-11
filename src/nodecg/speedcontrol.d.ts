@@ -1,16 +1,19 @@
 import { RunDataArray } from './external/speedcontrol/runDataArray';
+import { RunDataActiveRun } from './external/speedcontrol/runDataActiveRun';
 import { RunDataActiveRunSurrounding } from './external/speedcontrol/runDataActiveRunSurrounding';
 import { CreateNodecgInstance, CreateNodecgConstructor } from 'ts-nodecg/browser';
 import { Timer } from './external/speedcontrol';
 
 type ReplicantMap = {
     runDataArray: RunDataArray,
+    runDataActiveRun: RunDataActiveRun,
     runDataActiveRunSurrounding: RunDataActiveRunSurrounding,
     timer: Timer
 };
 
 type SpeedcontrolReplicantName = (
     'runDataArray' |
+    'runDataActiveRun' |
     'runDataActiveRunSurrounding' |
     'timer'
 );
@@ -33,6 +36,7 @@ type SpeedcontrolConstructor = CreateNodecgConstructor<
 
 export {
   RunDataArray,
+  RunDataActiveRun,
   RunDataActiveRunSurrounding,
   Timer,
   SpeedcontrolReplicantName,

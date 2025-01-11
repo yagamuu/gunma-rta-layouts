@@ -1,8 +1,8 @@
 export const Styles = {
   fonts: {
     setup: {
-      primary: '48px',
-      secondary: '32px',
+      primary: '56px',
+      secondary: '48px',
     },
     game: {
       primary: '54px',

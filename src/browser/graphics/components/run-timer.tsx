@@ -21,8 +21,14 @@ export const RunTimer = () => {
     <div style={{
       display: 'grid',
       gridTemplateColumns: '64px 16px auto',
-      gridTemplateRows: '96px 48px',
+      gridTemplateRows: '60px 60px',
       alignItems: 'center',
+      position: 'absolute',
+      top: '20px',
+      left: '1470px',
+      height: '120px',
+      width: '420px',
+      fontSize: '32px',
     }}
     >
       <div style={{
@@ -35,7 +41,7 @@ export const RunTimer = () => {
       <div style={{
         gridColumn: '3 / 4',
         gridRow: '1 / 2',
-        fontSize: Styles.fonts.game.primary,
+        fontSize: '64px',
         color: TimeColors[timer?.state ?? 'stopped'],
       }}>
         { timer?.time }
@@ -43,7 +49,7 @@ export const RunTimer = () => {
       <div style={{
         gridColumn: '3 / 4',
         gridRow: '2 / 3',
-        fontSize: Styles.fonts.game.secondary,
+        fontSize: '24px',
       }}
       >
         予定タイム - { run?.estimate}
